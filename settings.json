@@ -1,0 +1,61 @@
+{
+  "context_servers": {
+    "mcp-server-github": {
+      "settings": {
+        "github_personal_access_token": "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"
+      }
+    }
+  },
+  "show_edit_predictions": true,
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "terminal": {
+    "shell": "system",
+    "line_height": { "custom": 1.25 }
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "default_profile": "agent",
+    "profiles": {
+      "agent": {
+        "name": "Agent",
+        "tools": {},
+        "enable_all_context_servers": false,
+        "context_servers": {}
+      }
+    },
+    "always_allow_tool_actions": true,
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    },
+    "model_parameters": [],
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "version": "2"
+  },
+  "vim_mode": true,
+  "vim": {
+    "toggle_relative_line_numbers": true
+  },
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "agent_font_size": 14,
+  "ui_font_family": "Adwaita Mono",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "theme": {
+    "mode": "dark",
+    "light": "One Dark Pro Black",
+    "dark": "One Dark Pro Max"
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  }
+}
